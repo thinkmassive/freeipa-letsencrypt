@@ -2,7 +2,7 @@
 set -o nounset -o errexit
 
 WORKDIR=$(dirname "$(realpath $0)")
-EMAIL=""
+EMAIL="alex@thinkmassive.org"
 
 ### cron
 # check that the cert will last at least 2 days from now to prevent too frequent renewal
